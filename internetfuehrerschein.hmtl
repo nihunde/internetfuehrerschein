@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel = "stylesheet"
+  type = "text/css"
+  href="internetfuehrerschein.css"
+</head>
+
+
+<body>
+
+<div id="introduction">
+
+  <h1>
+    Willkommen beim Internetführerschein!
+  </h1>
+
+  <p>
+    Beantworte <!-- TODO: add number of questions --> einfache Fragen und beweise, dass du fit genug bist für das Internet!
+  </p>
+
+</div>
+
+
+<div id="question">
+
+  <h2>
+    Frage 1 <!-- TODO: numbering -->
+  </h2>
+
+  <p>
+    Dein Computer macht dir mal wieder Probleme. Was machst du?  <!-- TODO: question -->
+  </p>
+
+  <form>
+    <input type="button" name="Answer1" value="Ich rufe panisch die Person in der Familie an, die die meisten dunklen Hoodies hat, und schildere ihr mein Problem.">
+    <input type="button" name="Answer2" value="Ich mache den Computer aus und wieder an."><br>
+    <input type="button" name="Answer3" value="Ich warte aus bessere Zeiten, bis dahin bohre ich in der der Nase.">
+    <input type="button" name="Answer4" value="Im Kreis laufen und Humpa! Humpa! brüllen."><br>
+
+    <input type="submit" name="submit" value="Nächste Frage" checked>
+  </form>
+
+</div>
+
+</body>
+</html>
