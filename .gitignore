@@ -1,0 +1,3 @@
+# Files that match the patterns below here are automatically ignored git
+.env
+.env.test
